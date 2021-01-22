@@ -73,12 +73,13 @@
     padding : 0px 10px;
     border-radius: 50px;
     width : 50px;
+    
 }
 
 .header__optionBasketIcon {
     color : rgb(192, 150, 12);
     margin-left: -4px;
-   
+    
 }
 
 .header__optionBasketCount {
