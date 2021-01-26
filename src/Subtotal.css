@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+.subtotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: lightgray;
+    height : max-content;
+    padding : 20px 10px;
+    margin : 0px 5px;
+    border-radius : 2px;
+  
+}
+
+.subtotal__gift {
+    padding : 20px 0px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'cursive';
+}
+.subtotal__button {
+    background: rgb(204, 182, 16);
+    border : none;
+    outline-width: 0;
+    padding : 5px;
+    width : 100%;
+    margin-top : 20px;
+    transition: .75s;
+    border-radius : 2px;
+    max-width : 300px;
+}
+
+.subtotal__button:hover {
+    background: rgba(153, 151, 55);
+}
